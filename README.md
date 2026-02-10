@@ -7,3 +7,6 @@ spillbibliotek er en webasert system som viser spill og statistikker på om jeg 
 * **Database: Mariadb**
   - Database: spillbibliotek
   - Tabell: id, tittel, plattform, sjanger, utgivelsesar, eier_status, rating, notater
+* **Teknologier og Versjoner**
+  - Node.js: versjon, 25.6.0
+  - MariaDB: versjon, 12.1.2-MariaDB
