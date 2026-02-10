@@ -21,25 +21,30 @@ spillbibliotek er en webasert system som viser spill og statistikker på om jeg 
 beskriver steg for steg hvordan man setter opp på lokal maskin
 
 1. Klon repo og gå til backend:
-```bash
+```
 git clone <repo-url>
 cd gameslibrary/backend
 ```
 
-2.
+2. Installer avhengigheter:
 ```
-Installer avhengigheter:
 npm install
 ```
 
 3. Start MariaDB og sørg for at du kan logge inn:
+```
 mariadb -u madde -p -h localhost
+```
 
 4. Initialiser databasen (kjør kun én gang eller når du vil resette testdata):
+```
 node dbinit.js
+```
 
 5. Start serveren:
+```
 node app.js
+```
 
 # eller for utvikling:
 # nodemon app.js
