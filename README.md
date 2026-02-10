@@ -21,7 +21,7 @@ spillbibliotek er en webasert system som viser spill og statistikker på om jeg 
 beskriver steg for steg hvordan man setter opp på lokal maskin
 
 1. Klon repo og gå til backend:
-'''
+'''bash
 git clone <repo-url>
 cd gameslibrary/backend
 '''
