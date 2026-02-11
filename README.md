@@ -36,15 +36,17 @@ npm install
 mariadb -u madde -p -h localhost
 ```
 
-4. Initialiser databasen (kjør kun én gang eller når du vil resette testdata):
+4. logg inn med passordet
+```
+passworder
+```
+
+5. Initialiser databasen (kjør kun én gang eller når du vil resette testdata):
 ```
 node dbinit.js
 ```
 
-5. Start serveren:
+6. Start serveren:
 ```
 node app.js
 ```
-
-# eller for utvikling:
-# nodemon app.js
